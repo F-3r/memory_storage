@@ -21,7 +21,7 @@ class MemoryStorage
     end
 
     def each(&block)
-      storage.each {|k,object| block.call(object) }
+      storage.values.each &block
     end
 
     def storage
