@@ -4,10 +4,10 @@ A very simple in memory storage utility class.
 
 ## Installation
 
-Add this repo to your Gemfile
+Add the gem to your Gemfile
 
 ```ruby
-gem 'memory_storage', github: 'ttps-ruby/memory_storage'
+gem 'memory_storage'
 ```
 
 ## Usage
